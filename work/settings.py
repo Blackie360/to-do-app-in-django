@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-22)3i+&2i!sucbx2e3dn=+_7c^&p=-r_0i)tc2+lxeo2o)%^7r
 DEBUG = True
 CSRF_TRUSTED_ORIGINS = ['https://to-do-app-devphelix.up.railway.app/login/?next=/']
 
-ALLOWED_HOSTS = ['https://to-do-app-devphelix.up.railway.app/login/?next=/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
