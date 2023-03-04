@@ -18,8 +18,7 @@ from django.db import transaction
 from .models import Task
 from .forms import PositionForm
 
-from django.views.decorators.csrf import csrf_protect
-@csrf_protect
+
 class CustomLoginView(LoginView):
     template_name = 'base/login.html'
     fields = '__all__'
