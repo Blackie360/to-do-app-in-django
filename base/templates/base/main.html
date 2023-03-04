@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="description"
-        content="This is to do list implemented using Django by Dennis Ivy who is a full stack web developer.">
+        content="This is to do list implemented using Django by Phelix Jumason who is a full stack web developer.">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>To Do Items</title>
@@ -13,6 +13,10 @@
     <link rel="shortcut icon" href="base/pexels-ali-pazani-2777898.ico">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
     
 
     <style>
@@ -196,6 +200,7 @@
         .card-body {
             padding: 20px;
         }
+        
     </style>
 </head>
 
@@ -204,8 +209,32 @@
     <div class="container">
         {% block content %} {% endblock content %}
     </div>
+    <hr>
+   <!--footer-->
+   <footer class="footer bg-dark" style="display: flex; justify-content: center; align-items: center; height: 100px; ">
+    <div class="containerx">
+      <div class="row">
+        Designed By <a class="border-bottom" href="https://felix-jumason.netlify.app/">blackie_Dev</a>
+        <div class="col-md-6">
+            <p class="text-white">&copy; 2023 CodeFlix. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <div class="footer-menu">
+               
+                <a class="" href="https://api.whatsapp.com/send?phone=+254703198968&text=I am texting  about an app you created . And below is my Message ..."><i class="fab fa-whatsapp fa-2x" style="color: #25d366;"></i></a>
+                    <a class="" href="tel:+254703198968"><i class="fa fa-phone fa-2x" style="color: crimson;"></i></a>
+                      <a class="" href="https://www.instagram.com/p.h.el.i.x/"><i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i>
+                        </a>
+                        <a href="https://twitter.com/360_gamerx"><i class="fab fa-twitter fa-2x" style="color: #55acee;"></i></a>
+                        <a href="https://github.com/blackhat360gamer/"><i class="fab fa-github fa-2x" style="color: #333333;"></i></a>
+            
+            </div>
+            <div class="portfolio"style="display: flex; justify-content: center; align-items: center;">
+                <a class="nav-link text-white" href="https://felix-jumason.netlify.app/"><i class="fas fa-code fa-2x" style="color:blue"></i></a>
+                
+            </div>
+        </div>
 
 </body>
-
 
 </html>
